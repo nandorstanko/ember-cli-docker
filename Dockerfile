@@ -45,4 +45,4 @@ RUN \
 
 RUN npm install -g yarn
 
-RUN yarn global add ember-cli@3.10.1
+RUN yarn global add ember-cli@3.13.1
