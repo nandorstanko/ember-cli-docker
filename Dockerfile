@@ -43,6 +43,4 @@ RUN \
 RUN \
 	echo 'PS1="\[\\e[0;94m\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\\\$\[\\e[m\] "' >> ~/.bashrc
 
-RUN npm install -g yarn
-
 RUN yarn global add ember-cli@3.18.0
