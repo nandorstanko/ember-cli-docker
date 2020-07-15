@@ -1,4 +1,4 @@
-FROM node:12.4.0
+FROM node:14
 LABEL maintainer="nandor.stanko@gmail.com"
 
 EXPOSE 4200 7020 7357
@@ -45,4 +45,4 @@ RUN \
 
 RUN npm install -g yarn
 
-RUN yarn global add ember-cli@3.13.1
+RUN yarn global add ember-cli@3.18.0
